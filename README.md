@@ -17,13 +17,15 @@
 - Statsmodel kütüphanesinin ilgili modülü (seasonal_decompose) kullanılarak sezonsallıktan ayırıldı.
 - Veriler ayrıca hareketli ortalama yöntemi ile sezonsallıktan ayırıldı ve testler sonucunda hangi yöntemin en iyi sonuç verdiğine karar verildi.
 
-  ![image](https://github.com/user-attachments/assets/ba79eb22-f4aa-49b8-b8a2-25ff94004963)
-  <br>
   <p align="center">
-  <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
+    ![image](https://github.com/user-attachments/assets/ba79eb22-f4aa-49b8-b8a2-25ff94004963)
+    <br>
+    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
   </p>
-  ![image](https://github.com/user-attachments/assets/68c1f02c-6698-4158-b097-1175563d9798)
-  <br>
+  
+  
   <p align="center">
-  <em>Verilerin 7 günlük hareketli ortalaması</em>
+    ![image](https://github.com/user-attachments/assets/064be28f-17d2-44f1-b62f-30b9ec0ab1f7)
+    <br>
+    <em>Verilerin 7 günlük hareketli ortalaması</em>
   </p>
