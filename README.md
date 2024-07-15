@@ -15,7 +15,9 @@
 - 3 yılın verisi birleştirildi.
 - 2021 ve öncesi verileri Covid dönemi nedeniyle atlandı.
 - Statsmodel kütüphanesinin ilgili modülü (seasonal_decompose) kullanılarak sezonsallıktan ayırıldı.
-- Veriler ayrıca hareketli ortalama yöntemi ile sezonsallıktan ayırıldı ve testler sonucunda hangi yöntemin en iyi sonuç verdiğine karar verildi.
+- Veriler ayrıca hareketli ortalama yöntemi ile sezonsallıktan ayırıldı.
+- Testler sonucunda 7 günlük hareketli ortalamanın en iyi sonucu verdiğine karar verildi.
+- Oluşan normal sonucu otelin doluluğuna günlük olarak otel doluluğuna bölerek kişi başına düşen elektrik tüketimi elde edildi.
 
   <p align="center">
     <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
@@ -28,3 +30,12 @@
     <br>
     <em>Verilerin 7 günlük hareketli ortalaması</em>
   </p>
+
+  <p align="center">
+    <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
+    <br>
+    <em>7 günlük hareketli ortalamanın kişi başına düşen elektrik miktarı</em>
+  </p>
+
+## 3 - Anomali Tespit Yöntemleri
+
