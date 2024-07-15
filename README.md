@@ -24,7 +24,7 @@
   </p>
   
   <p align="center">
-    <img src="Ekran görüntüsü 2024-07-15 163701.png">
+    <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
     <br>
     <em>Verilerin 7 günlük hareketli ortalaması</em>
   </p>
