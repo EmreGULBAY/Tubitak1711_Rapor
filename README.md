@@ -18,13 +18,13 @@
 - Veriler ayrıca hareketli ortalama yöntemi ile sezonsallıktan ayırıldı ve testler sonucunda hangi yöntemin en iyi sonuç verdiğine karar verildi.
 
   <p align="center">
-    <img href="images/Ekran görüntüsü 2024-07-15 163510.png">
+    <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
     <br>
     <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
   </p>
   
   <p align="center">
-    <img href="Ekran görüntüsü 2024-07-15 163701.png">
+    <img src="Ekran görüntüsü 2024-07-15 163701.png">
     <br>
     <em>Verilerin 7 günlük hareketli ortalaması</em>
   </p>
