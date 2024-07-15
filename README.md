@@ -19,9 +19,11 @@
 
   ![image](https://github.com/user-attachments/assets/ba79eb22-f4aa-49b8-b8a2-25ff94004963)
   <br>
-  <em>Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
-
+  <p align="center">
+  <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
+  </p>
   ![image](https://github.com/user-attachments/assets/68c1f02c-6698-4158-b097-1175563d9798)
   <br>
+  <p align="center">
   <em>Verilerin 7 günlük hareketli ortalaması</em>
-
+  </p>
