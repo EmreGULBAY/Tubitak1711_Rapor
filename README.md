@@ -9,7 +9,7 @@
 - sklearn: makine öğrenmesi algoritmaları ve verileri ölçekleme.
 - statsmodels: istatistiksel model tahmini.
 
-## 2 - Verlerin Hazırlanması
+## 2 - Verilerin Hazırlanması
 
 - Anlaşmalı otellerin sağladığı verilerin 2022, 2023 ve 2024 verilerinin günlük harcanan elektrik (KWH), su (M3), doğalgaz (KWH), doluluk ve hissedilen hava sıcaklığı kısımları seçildi.
 - 3 yılın verisi birleştirildi.
