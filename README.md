@@ -20,40 +20,40 @@
 - Oluşan normal sonucu otelin doluluğuna günlük olarak otel doluluğuna bölerek kişi başına düşen elektrik tüketimi elde edildi.
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
+    <img src="elektrik_residual.png">
     <br>
     <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin elektrik verisi üzerindeki residual sonucu</em>
   </p>
   
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
+    <img src="elektrik_moving_average.png">
     <br>
     <em>Elektrik verilerin 7 günlük hareketli ortalaması</em>
   </p>
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 164836.png">
+    <img src="kisi_basi_elektrik.png">
     <br>
     <em>7 günlük hareketli ortalamanın kişi başına düşen elektrik miktarı</em>
   </p>
   
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
+    <img src="su_residual.png">
     <br>
-    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin elektrik verisi üzerindeki residual sonucu</em>
+    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin su verisi üzerindeki residual sonucu</em>
   </p>
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
+    <img src="su_moving_average.png">
     <br>
-    <em>Elektrik verilerin 7 günlük hareketli ortalaması</em>
+    <em>Su verisinin 7 günlük hareketli ortalaması</em>
   </p>
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 164836.png">
+    <img src="kisi_basi_su.png">
     <br>
-    <em>7 günlük hareketli ortalamanın kişi başına düşen elektrik miktarı</em>
+    <em>7 günlük hareketli ortalamanın kişi başına düşen su miktarı</em>
   </p>
 
 ## 3 - Anomali Tespit Yöntemleri
@@ -66,8 +66,15 @@
 - Veri setindeki gürültü veya hatalı veri noktaları, Isolation Forest algoritmasının performansını önemli ölçüde etkilemez. Bu da yöntemi daha güvenilir hale getirir.
 
   <p align="center">
-    <img src="images/Ekran görüntüsü 2024-07-15 165443.png">
+    <img src="elektrik_anomali.png">
     <br>
-    <em>Elde edilen verinin isolation forest algoritmasından geçirilmiş hali</em>
+    <em>Elde edilen elektrik verisinin isolation forest algoritmasından geçirilmiş hali</em>
+  </p>
+
+
+  <p align="center">
+    <img src="su_anomali.png">
+    <br>
+    <em>Elde edilen su verisinin isolation forest algoritmasından geçirilmiş hali</em>
   </p>
   
