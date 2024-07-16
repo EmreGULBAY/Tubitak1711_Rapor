@@ -20,38 +20,38 @@
 - Oluşan normal sonucu otelin doluluğuna günlük olarak otel doluluğuna bölerek kişi başına düşen elektrik tüketimi elde edildi.
 
   <p align="center">
-    <img src="elektrik_residual.png">
+    <img src="images/elektrik_residual.png">
     <br>
     <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin elektrik verisi üzerindeki residual sonucu</em>
   </p>
   
   <p align="center">
-    <img src="elektrik_moving_average.png">
+    <img src="images/elektrik_moving_average.png">
     <br>
     <em>Elektrik verilerin 7 günlük hareketli ortalaması</em>
   </p>
 
   <p align="center">
-    <img src="kisi_basi_elektrik.png">
+    <img src="images/kisi_basi_elektrik.png">
     <br>
     <em>7 günlük hareketli ortalamanın kişi başına düşen elektrik miktarı</em>
   </p>
   
 
   <p align="center">
-    <img src="su_residual.png">
+    <img src="images/su_residual.png">
     <br>
     <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin su verisi üzerindeki residual sonucu</em>
   </p>
 
   <p align="center">
-    <img src="su_moving_average.png">
+    <img src="images/su_moving_average.png">
     <br>
     <em>Su verisinin 7 günlük hareketli ortalaması</em>
   </p>
 
   <p align="center">
-    <img src="kisi_basi_su.png">
+    <img src="images/kisi_basi_su.png">
     <br>
     <em>7 günlük hareketli ortalamanın kişi başına düşen su miktarı</em>
   </p>
@@ -66,14 +66,14 @@
 - Veri setindeki gürültü veya hatalı veri noktaları, Isolation Forest algoritmasının performansını önemli ölçüde etkilemez. Bu da yöntemi daha güvenilir hale getirir.
 
   <p align="center">
-    <img src="elektrik_anomali.png">
+    <img src="images/elektrik_anomali.png">
     <br>
     <em>Elde edilen elektrik verisinin isolation forest algoritmasından geçirilmiş hali</em>
   </p>
 
 
   <p align="center">
-    <img src="su_anomali.png">
+    <img src="images/su_anomali.png">
     <br>
     <em>Elde edilen su verisinin isolation forest algoritmasından geçirilmiş hali</em>
   </p>
