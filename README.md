@@ -56,6 +56,26 @@
     <em>7 günlük hareketli ortalamanın kişi başına düşen su miktarı</em>
   </p>
 
+
+  <p align="center">
+    <img src="images/dogalgaz_residual.png">
+    <br>
+    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin doğalgaz verisi üzerindeki residual sonucu</em>
+  </p>
+
+  <p align="center">
+    <img src="images/dogalgaz_moving_average.png">
+    <br>
+    <em>Doğalgaz verisinin 7 günlük hareketli ortalaması</em>
+  </p>
+
+  <p align="center">
+    <img src="images/kisi_basi_dogalgaz.png">
+    <br>
+    <em>7 günlük hareketli ortalamanın kişi başına düşen doğalgaz miktarı</em>
+  </p>
+
+
 ## 3 - Anomali Tespit Yöntemleri
 
 ### 3.1 - Isolation Forest
@@ -76,5 +96,12 @@
     <img src="images/su_anomali.png">
     <br>
     <em>Elde edilen su verisinin isolation forest algoritmasından geçirilmiş hali</em>
+  </p>
+
+
+  <p align="center">
+    <img src="images/dogalgaz_anomali.png">
+    <br>
+    <em>Elde edilen doğalgaz verisinin isolation forest algoritmasından geçirilmiş hali</em>
   </p>
   
