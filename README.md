@@ -11,7 +11,7 @@
 
 ## 2 - Verlerin Hazırlanması
 
-- Anlaşmalı otellerin sağladığı verilerin 2022, 2023 ve 2024 verilerinin günlük harcanan elektrik, doluluk ve hissedilen hava sıcaklığı kısımları seçildi.
+- Anlaşmalı otellerin sağladığı verilerin 2022, 2023 ve 2024 verilerinin günlük harcanan elektrik (KWH), su (M3), doğalgaz (KWH), doluluk ve hissedilen hava sıcaklığı kısımları seçildi.
 - 3 yılın verisi birleştirildi.
 - 2021 ve öncesi verileri Covid dönemi nedeniyle atlandı.
 - Statsmodel kütüphanesinin ilgili modülü (seasonal_decompose) kullanılarak sezonsallıktan ayırıldı.
@@ -22,13 +22,32 @@
   <p align="center">
     <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
     <br>
-    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin residual sonucu</em>
+    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin elektrik verisi üzerindeki residual sonucu</em>
   </p>
   
   <p align="center">
     <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
     <br>
-    <em>Verilerin 7 günlük hareketli ortalaması</em>
+    <em>Elektrik verilerin 7 günlük hareketli ortalaması</em>
+  </p>
+
+  <p align="center">
+    <img src="images/Ekran görüntüsü 2024-07-15 164836.png">
+    <br>
+    <em>7 günlük hareketli ortalamanın kişi başına düşen elektrik miktarı</em>
+  </p>
+  
+
+  <p align="center">
+    <img src="images/Ekran görüntüsü 2024-07-15 163510.png">
+    <br>
+    <em >Statsmodel.seasonal_decompose methonunun 365 günlük penceresinin elektrik verisi üzerindeki residual sonucu</em>
+  </p>
+
+  <p align="center">
+    <img src="images/Ekran görüntüsü 2024-07-15 163701.png">
+    <br>
+    <em>Elektrik verilerin 7 günlük hareketli ortalaması</em>
   </p>
 
   <p align="center">
